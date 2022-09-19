@@ -1,0 +1,8 @@
+C:\Users\kevinling\Desktop\USBTESR\USBAllClearTool.exe
+C:\Users\kevinling\Desktop\USBTESR\USBAllClearTool.dll
+C:\Users\kevinling\Desktop\USBTESR\USBAllClearTool.deps.json
+C:\Users\kevinling\Desktop\USBTESR\USBAllClearTool.runtimeconfig.json
+C:\Users\kevinling\Desktop\USBTESR\USBAllClearTool.pdb
+C:\Users\kevinling\Desktop\USBTESR\System.CodeDom.dll
+C:\Users\kevinling\Desktop\USBTESR\System.Management.dll
+C:\Users\kevinling\Desktop\USBTESR\runtimes\win\lib\netcoreapp3.1\System.Management.dll
