@@ -4,6 +4,9 @@ After you use rufus related tools to create a bootable flash drive, you can rest
 # Directions
 When you use rufus, etcher or chromeos recovery to make a bootable usb, your flash drive will be split into many sectors, this tool can help you to recover your flash drive into one sector, allowing your flash drive to be back function of saving files
 
+# Use Platform
+.NET 5 (need to install .NET 5 Runtime)
+
 # Function (Always Update)
 1.USB flash drive select
 2.ATA/SATA/Nvme hardisk drive select
