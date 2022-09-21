@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ben83\\source\\repos\\USBAllClearTool\\USBAllClearTool\\USBAllClearTool.csproj": {}
+    "C:\\Users\\ben83\\Desktop\\USBFingerClear\\USBAllClearTool\\USBAllClearTool.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ben83\\source\\repos\\USBAllClearTool\\USBAllClearTool\\USBAllClearTool.csproj": {
+    "C:\\Users\\ben83\\Desktop\\USBFingerClear\\USBAllClearTool\\USBAllClearTool.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ben83\\source\\repos\\USBAllClearTool\\USBAllClearTool\\USBAllClearTool.csproj",
+        "projectUniqueName": "C:\\Users\\ben83\\Desktop\\USBFingerClear\\USBAllClearTool\\USBAllClearTool.csproj",
         "projectName": "USBAllClearTool",
-        "projectPath": "C:\\Users\\ben83\\source\\repos\\USBAllClearTool\\USBAllClearTool\\USBAllClearTool.csproj",
+        "projectPath": "C:\\Users\\ben83\\Desktop\\USBFingerClear\\USBAllClearTool\\USBAllClearTool.csproj",
         "packagesPath": "C:\\Users\\ben83\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ben83\\source\\repos\\USBAllClearTool\\USBAllClearTool\\obj\\",
+        "outputPath": "C:\\Users\\ben83\\Desktop\\USBFingerClear\\USBAllClearTool\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -61,24 +61,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.17, 5.0.17]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

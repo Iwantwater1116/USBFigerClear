@@ -1,19 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "ytkyfSu+7u1oSQetyoMxVl4+RRHD81y/ZLWMbAH6955fXI8t7FempzWCGkLqb+5u+yeb9lyPmnW80PnbfoMFsQ==",
+  "dgSpecHash": "1DvLsp8Qpfwtudv2tTAf4B0EVvEHCNqu/BpfTPdcUcC7mv6AzmMj1sJWTgdww8TpQJqWiwIM58SD5vgtS6/P5g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ben83\\source\\repos\\USBAllClearTool\\USBAllClearTool\\USBAllClearTool.csproj",
+  "projectFilePath": "C:\\Users\\ben83\\Desktop\\USBFingerClear\\USBAllClearTool\\USBAllClearTool.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ben83\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\ben83\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\ben83\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
     "C:\\Users\\ben83\\.nuget\\packages\\system.management\\6.0.0\\system.management.6.0.0.nupkg.sha512",
     "C:\\Users\\ben83\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
-    "C:\\Users\\ben83\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
-    "C:\\Users\\ben83\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512",
-    "C:\\Users\\ben83\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\ben83\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\ben83\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+    "C:\\Users\\ben83\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

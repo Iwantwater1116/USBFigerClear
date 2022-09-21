@@ -6,13 +6,13 @@
         xmlns:local="clr-namespace:USBAllClearTool"
         Loaded="Window_Loaded"
         mc:Ignorable="d"
-        Title="MainWindow" Height="480" Width="400" ResizeMode="CanMinimize">
+        Title="MainWindow" Height="465" Width="400" ResizeMode="CanMinimize">
     <Grid>
         <Label x:Name="Lbl_Title" FontSize="30" FontWeight="Bold" FontFamily="Noto Sans TC" Content="Finger Clear"/>
         <GroupBox x:Name="Gbx_USBSet" Header="Disk Setting" Margin="20,60,20,0" Height="167" VerticalAlignment="Top">
             <Grid>
                 <Label x:Name="Lbl_Device" FontSize="16" FontFamily="Noto Sans TC" Content="Devices：" Margin="46.5,10,0,0"/>
-                <ComboBox x:Name="Cmb_Devices" HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Height="30" Margin="150,10,0,0"/>
+                <ComboBox x:Name="Cmb_Devices" HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Height="30" Margin="150,10,0,0" SelectionChanged="Cmb_Devices_SelectionChanged"/>
                 <Label x:Name="Lbl_FormatType" FontSize="16" FontFamily="Noto Sans TC" Content="Format Type：" Margin="10,55,0,0"/>
                 <ComboBox x:Name="Cmb_Format_Type" HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Height="30" Margin="150,57,0,0"/>
                 <Label x:Name="Lbl_DiskType" FontSize="16" FontFamily="Noto Sans TC" Content="Disk Type：" Margin="33,100,0,0"/>
@@ -20,16 +20,18 @@
             </Grid>
         </GroupBox>
 
-        <GroupBox x:Name="Gbx_ClrOpt" Header="Clean Mode Option" Height="50" VerticalAlignment="Top" Margin="20,230,20,0" Padding="30,0,30,0">
+        <GroupBox x:Name="Gbx_QuickFormat" Header="Quick Format" Margin="20,335,20,0" VerticalAlignment="Top" Height="62" Padding="5">
             <Grid>
-                <RadioButton x:Name="Rdb_AllClear" Content="All Clean" Margin="0,0,0,0" VerticalAlignment="Center" HorizontalAlignment="Left" Checked="Rdb_AllClear_Checked"/>
-                <RadioButton x:Name="Rdb_JustFormat" Content="Just Format" Margin="0,0,0,0" VerticalAlignment="Center" HorizontalAlignment="Right" IsChecked="True" Checked="Rdb_AllClear_Checked"/>
+                <CheckBox x:Name="Ckb_QuickFormat" Content="Quick Format" VerticalAlignment="Center" HorizontalAlignment="Left" Checked="Ckb_QuickFormat_Checked"/>
             </Grid>
         </GroupBox>
 
-        <GroupBox x:Name="Gbx_QuickFormat" Header="Quick Format" Margin="20,285,20,0" VerticalAlignment="Top" Height="62" Padding="5">
+        <GroupBox x:Name="Gbx_ClrOpt" Header="Clean Mode Option" Height="100" VerticalAlignment="Top" Margin="20,230,20,0" Padding="30,10,30,0">
             <Grid>
-                <CheckBox x:Name="Ckb_QuickFormat" Content="Quick Format" VerticalAlignment="Center" HorizontalAlignment="Left" Checked="Ckb_QuickFormat_Checked"/>
+                <Label x:Name="Lbl_Volume" Content="Volume：" Margin="20,25,0,0" FontSize="16" FontFamily="Noto Sans TC"/>
+                <ComboBox x:Name="Cmb_Volumelist" Height="30" Width="150" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,25,2,0"/>
+                <RadioButton x:Name="Rdb_AllClear" Content="All Clean" Margin="0,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Checked="Rdb_AllClear_Checked"/>
+                <RadioButton x:Name="Rdb_JustFormat" Content="Just Format" Margin="0,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Right" IsChecked="True" Checked="Rdb_AllClear_Checked"/>
             </Grid>
         </GroupBox>
 
